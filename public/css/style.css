@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;500&display=swap');
+
+body{
+    background: green;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Muli', sans-serif;
+}
+
+.clock{
+    height: 20px;
+    width: 20px;
+}
+
+.comment__box{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.comment__box .comment h6{
+    font-weight: 800;
+}
+
+
+p{
+    font-size: 15px;
+}
+
+.card_body{
+    padding: 10px;
+    border: 0.5px solid rgb(112, 41, 112);
+}
+
+.comment{
+    animation: something .6s ease forwards;
+}
+
+@keyframes something{
+    0%{
+        transform:  translateY((-30px));
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY((0px));
+        opacity: 1;
+    }
+
+
+
+}
